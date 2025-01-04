@@ -97,7 +97,6 @@ img {
 .content {
     flex-wrap: wrap;
     align-items: center;
-    height: 100vh;
     padding: 10px;
     padding-top: 11vw;
     background-color: #333;
@@ -131,4 +130,12 @@ img {
 
 .slogo {
     display: flex;
+}
+
+.decorbox {
+    height: 60vh;
+}
+
+.decorbox img {
+    height: 100%;
 }
