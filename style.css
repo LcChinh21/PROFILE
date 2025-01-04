@@ -7,12 +7,29 @@ body {
     padding: 0;
 }
 
+.avatar {
+    position: absolute;
+}
+
 img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
+.avatar {
+    
+    background-color: #fff;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    top: 90px;
+    left: 5vw;
+}
+
+.code {
+    display: flex;
+}
 
 .bar {
     display: flex;
@@ -77,11 +94,12 @@ img {
 
 
 
-
 .content {
     flex-wrap: wrap;
     align-items: center;
+    height: 100vh;
     padding: 10px;
+    padding-top: 11vw;
     background-color: #333;
 }
 
